@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css">
     <!--Replace with your tailwind.css once created-->
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Odibee+Sans|Tajawal&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Raleway', sans-serif;
@@ -81,7 +81,7 @@
         .pick {
             height: 140px;
             width: 140px;
-
+            font-family: 'Odibee Sans', cursive;
             background: #CCCCCC;
             border: #AEA8AA 2px solid;
             box-shadow: inset 5px 5px 3px #D9D9D9,
@@ -99,17 +99,24 @@
 
         .text {
             position: relative;
-            top: 40px;
-            /*transform: rotate(170deg);*/
+            top: 3px;
+            left: 25px;
+            transform: rotate(-45deg);
             /*font-family: 'Shadows Into Light', cursive;*/
             /*letter-spacing: 2px;*/
-            font-size: 20px;
-            line-height: 25px;
+            font-size: 35px;
+            line-height: 30px;
             color: #6F6F6F;
 
             display: flex;
-            justify-content: flex-end;
+            /*justify-content: flex-end;*/
             /*text-align: right;*/
+        }
+
+        .arabic {
+            font-family: 'Tajawal', sans-serif;
+            direction: rtl;
+
         }
     </style>
 </head>
@@ -119,7 +126,7 @@
 <div class="py-24 m-2 sm:ml-24">
     <div class="flex flex-wrap w-2/4">
         <div class="flex-row w-full">
-            <h2 class="text-start font-bold text-5xl sm:text-6xl">
+            <h2 class="text-start font-bold text-5xl sm:text-6xl ">
                 Happiness is love
             </h2>
             <hr class="opacity-50 my-4 w-1/2">
@@ -173,7 +180,7 @@
             </div>
             <div class="flex w-full mt-2 justify-center sm:w-1/2 p-6">
                 <div class="pick">
-                    <span class="text">For the dad I picked.</span>
+                    <span class="text">For the<br> dad I <br>picked.</span>
                 </div>
             </div>
         </div>
@@ -253,9 +260,22 @@
             <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
 
-        <div class="flex justify-center pt-12 my-12 sm:my-4">
-            <p class="text-2xl text-gray-200">
-
+        <div class="flex justify-center pt-6 my-12 sm:my-4">
+            <p class="arabic text-2xl text-gray-200">
+                <br>فكما ترى يا حبيبي الحب عندنا غير ما عندهم!
+                <br> الحب عندنا هو ان أتعلم لغتك لكي أكلمك وتفهمني،
+                <br>أكلمك بما يحرك مشاعرك لا مشاعري،
+                <br> ان أكون انت او احاول.
+                <br>الحب عندنا ان نخطأ ونتشاجر ونغضب ونعتذر ونتصالح ونضحك ♥️
+                <br>حبنا ليش مثاليا يا ابي لكنه حب صادق
+                <br>حب حيث توجد راحة التحدث،
+                <br>راحة التصرف وراحة التفكير ♥️
+                <br>حبنا اطول من 24 ساعة حبنا يمتد على طول عمرنا.
+                <br>حبنا ليس بالأرقام حبنا بالأفعال والكلام.
+                <br>احبك، احبك، احبك.
+                <br>أعشقك أنا يا والدي عشق أنسى به نفسي معظم الوقت
+                <br> و عشق يحتل عقلي
+                <br>عشق يطمئنني في خوفي وعدم ارتياحي ♥️
             </p>
         </div>
 
